@@ -1,0 +1,132 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+.main__navigation-menu {
+    display: flex;
+    justify-content: space-between;
+    gap: 20px;
+    width: 100%;
+    height: 50px;
+    box-shadow: 0px 2px 2px rgba(0,0,0,0.5);
+    position: fixed; 
+    top: 0; 
+    left: 0; 
+    /* z-index: 100000;  */
+    background-color: #fff;
+}
+ul {
+    text-decoration: none;
+}
+li {
+    text-decoration: none;
+    list-style: none;
+}
+.li1 {
+    color: #75abf1;
+}
+a {
+    text-decoration: none;
+}
+.a-gm {
+    color: #6a6e73;
+    font-weight: 500;
+}
+.a-cv {
+    color: #75abf1;
+    font-size: 17px;
+}
+.a-dn {
+    color: #75abf1;
+    font-size: 15px;
+}
+.a-ttk {
+    color: #fff;
+}
+    
+.logogmail-container {
+    height: 30px;
+    width: 30px;
+}
+.logogmail {
+    height: 100%;
+    width: 100%;
+}
+.navbar-left {
+    display: flex;
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+}
+.navbar-right {
+    display: flex;
+    align-items: center;
+}
+.navbar-right-menu {
+    
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.main__contentp1-text {
+    flex-direction: column;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 30px 20px 100px;
+}
+.main__contentp1-text-h1 {
+    width: 400px;
+    height: auto;
+    margin-bottom: 5px;
+    font-size: 35px;
+}
+.main__contentp1-text-p {
+    width: 400px;
+    height: auto;
+    margin-bottom: 5px;
+    font-size: 20px;
+    color: #6a6e73;
+}
+
+.imgp1 {
+    height: 100%;
+    width: 100%;
+}
+
+.main__contentp1 {
+    margin-top: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.main__contentp1-btn {
+    width: 400px;
+    height: auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.btn-dn {
+    padding: 5px;
+    border: 1pt solid;
+    border-color:#dadce0 ;
+    height: 45px;
+    width: 100%;
+}
+.btn-ttk {
+    border-radius: 3px;
+    padding: 5px;
+    border: 1pt solid;
+    border-color:#dadce0 ;
+    height: 45px;
+    width: 150px;
+    background-color: #1a73e8 ;
+    font-size: 15px;
+    font-weight: 600;
+}
+.main__contentp2 {
+    width: 400px;
+    height: auto;
+}
